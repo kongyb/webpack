@@ -1,0 +1,11 @@
+$font_size: 25px;
+$font_color: blue;
+$font_family: 'Zen Dots', cursive;
+
+body {
+	font: {
+		size: $font_size;
+		family: $font_family;
+	}
+	color: $font_color;
+}
