@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "server": "webpack-dev-server",
     "build": "webpack",
     "sass": "sass ./src/style.scss ./src/style.css"
@@ -12,11 +11,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "core-js": "^3.25.1",
-    "http-server": "^14.1.1",
-    "webpack-dev-server": "^4.11.0"
-  },
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.19.0",
@@ -28,6 +22,8 @@
     "sass-loader": "^13.0.2",
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "webpack-cli": "^4.10.0",
+    "core-js": "^3.25.1",
+    "webpack-dev-server": "^4.11.0"
   }
 }
